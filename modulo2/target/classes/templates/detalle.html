@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link data-th-href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <link data-th-href="@{/css/main.css}" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row">
+        <div id="title">
+            <h1>Detalle Pais</h1>
+        </div>
+       
+    </div>
+    <div class="row">
+        <div id="content">
+        <label for="id"><h6>ID :</h6></label>
+        <h4><p th:text="${pais.id}" id="id">Test</p><h4>
+    	
+    	<label for="name"><h6>Name :</h6></label>
+    	<h4><p th:text="${pais.name}" id="name">Test</p><h4>
+        </div>
+    </div>
+
+</div>
+</body>
