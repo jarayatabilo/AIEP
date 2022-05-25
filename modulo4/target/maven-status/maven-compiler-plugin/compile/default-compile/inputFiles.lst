@@ -1,0 +1,10 @@
+D:\AIEP\WorkspaceModulos\modulo4\src\main\java\cl\aiep\modulos\App.java
+D:\AIEP\WorkspaceModulos\modulo4\src\main\java\cl\aiep\modulos\controller\PaisesController.java
+D:\AIEP\WorkspaceModulos\modulo4\src\main\java\cl\aiep\modulos\repository\entity\Paises.java
+D:\AIEP\WorkspaceModulos\modulo4\src\main\java\cl\aiep\modulos\repository\dto\PaisesDTO.java
+D:\AIEP\WorkspaceModulos\modulo4\src\main\java\cl\aiep\modulos\dao\impl\PaisesDAOImpl.java
+D:\AIEP\WorkspaceModulos\modulo4\src\main\java\cl\aiep\modulos\repository\entity\Regiones.java
+D:\AIEP\WorkspaceModulos\modulo4\src\main\java\cl\aiep\modulos\service\PaisesService.java
+D:\AIEP\WorkspaceModulos\modulo4\src\main\java\cl\aiep\modulos\repository\dto\RegionDTO.java
+D:\AIEP\WorkspaceModulos\modulo4\src\main\java\cl\aiep\modulos\dao\PaisesDAO.java
+D:\AIEP\WorkspaceModulos\modulo4\src\main\java\cl\aiep\modulos\repository\PaisesRepository.java

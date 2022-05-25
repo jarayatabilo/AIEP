@@ -1,0 +1,10 @@
+cl\aiep\modulos\dao\impl\PaisesDAOImpl.class
+cl\aiep\modulos\repository\PaisesRepository.class
+cl\aiep\modulos\App.class
+cl\aiep\modulos\controller\PaisesController.class
+cl\aiep\modulos\repository\dto\RegionDTO.class
+cl\aiep\modulos\dao\PaisesDAO.class
+cl\aiep\modulos\repository\dto\PaisesDTO.class
+cl\aiep\modulos\repository\entity\Regiones.class
+cl\aiep\modulos\service\PaisesService.class
+cl\aiep\modulos\repository\entity\Paises.class
