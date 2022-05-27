@@ -1,0 +1,10 @@
+#title{
+    margin:40px 0;
+}
+.card-body {
+font-family: cursive, roboto;
+background: rgb(107, 189, 255);
+color: white;
+padding: 10px;
+text-align: center;
+}

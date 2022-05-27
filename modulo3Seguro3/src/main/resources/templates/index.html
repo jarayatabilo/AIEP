@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link data-th-href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <link data-th-href="@{/css/main.css}" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    
+        <div id="title">
+            <h1>Spring Boot + Thymeleaf</h1>
+        </div>
+        <div class="container">
+        <div class="card">
+			<div class="card-body">
+				<h2 th:text="${usuario.username}"></h2>
+				<h2 th:text="${usuario.enabled}"></h2>
+				<h2 th:text="${usuario.AccountNonExpired}"></h2>
+				<h2 th:text="${usuario.AccountNonLocked}"></h2>
+				<h2 th:text="${usuario}"></h2>
+				
+			
+			</div>
+		</div>
+        </div>
+        <div class="row">
+        <table id="allCountries" class="table table-striped">
+            <thead>
+            <tr>
+                <th width="70%">ID</th>
+                <th>Nombre</th>
+                <th>Regiones</th>
+                <th>Detalle</th>
+                
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="result" data-th-each="pais : ${paises}">
+                <td>[[${pais.id}]]</td>
+                <td>[[${pais.name}]]</td>
+                <td>[[${pais.conteo}]]</td>
+                <td><a th:href="@{/obtiene/{id}(id=${pais.id})}">Ver</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+ <p><a href="/newPais">Add nuevo Pais</a></p>
+ 
+  <p><a href="/logout">Salir</a></p>
+</div>
