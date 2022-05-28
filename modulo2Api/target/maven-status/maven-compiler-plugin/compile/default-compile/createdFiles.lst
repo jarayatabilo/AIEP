@@ -1,0 +1,6 @@
+cl\aiep\modulos\controller\RestFulApiControllerPais.class
+cl\aiep\modulos\service\PaisesService.class
+cl\aiep\modulos\repository\entity\Paises.class
+cl\aiep\modulos\repository\PaisesRepository.class
+cl\aiep\modulos\App.class
+cl\aiep\modulos\controller\PaisesController.class
